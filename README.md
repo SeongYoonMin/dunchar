@@ -1,4 +1,4 @@
-![던파로고](https://github.com/SeongYoonMin/dunchar/blob/main/logos.png?raw=true)
+![던파로고](https://github.com/SeongYoonMin/dunchar/blob/main/src/assets/images/logos.png?raw=true)
 
 # 던캐
 

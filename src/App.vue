@@ -19,7 +19,7 @@ const links = ref<ILink[]>([
 
 <template>
   <header class="headers">
-    <h1>Dungeon & Fighter - Search Character</h1>
+    <h1>Dungeon & Fighter - 던캐</h1>
     <nav class="link">
       <RouterLink v-for="(items, index) in links" :key="index" :to="items.path">{{
         items.name
@@ -27,6 +27,9 @@ const links = ref<ILink[]>([
     </nav>
   </header>
   <RouterView></RouterView>
+  <footer class="footers">
+    <a href="https://developers.neople.co.kr" target="_blank"><img src="./assets/images/powered_neople.png" alt="Neople 오픈 API"></a>
+  </footer>
 </template>
 
 <style scoped lang="scss">
@@ -58,5 +61,11 @@ const links = ref<ILink[]>([
     font-size: 36px;
     font-weight: 500;
   }
+}
+.footers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
 }
 </style>
